@@ -51,6 +51,7 @@ h1, h2 {
 input {
     width: 20vw;
     height: 1.5em;
+    border: 2px solid black;
 }
 
 form {
@@ -66,4 +67,12 @@ button {
     margin-top: 20px;
     margin-left: 10px;
     padding: 10px 20px;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:focus {
+    border-color: black;
 }
