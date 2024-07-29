@@ -2,3 +2,68 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    display: flex;
+    height: 100vh;
+    width: auto;
+    overflow: hidden;
+}
+
+.painting {
+    display: flex;
+}
+
+.sheep {
+    height: 100vh;
+    width: auto;
+}
+
+.logo {
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    margin-top: 40vh;
+    padding: 20px 127px;
+    background-color: rgba(40, 40, 40, 0.7);
+}
+
+.text {
+    background-color: rgb(188, 164, 164);
+    height: 40vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1, h2 {
+    padding: 20px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+input {
+    width: 20vw;
+    height: 1.5em;
+}
+
+form {
+    display: flex;
+}
+
+.col1, .col2 {
+    width: 35vw;
+    padding: 20px;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px 20px;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,55 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="painting">
+        <div class="img">
+            <img src="sheep guitar.jpeg" class="sheep">
+        </div>
+        <div class="logo">
+            Janko Muzykant
+        </div>
+    </div>
+    <div class="login">
+        <div class="text">
+            <h1>Witaj na mojej stronie!</h1>
+            <h2>Bawię się Sztuczną Inteligencją tworząc piosenki</h2>
+        </div>
+        <div class="form">
+            <form method="post">
+                <div class="col1">
+                    <div class="input">
+                        <label for="first_name">Imię:</label>
+                        <input type="text" id="first_name" name="first_name" minlength="2" maxlength="10">
+                    </div>
+                    <div class="input">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="input">
+                        <label for="password">Hasło:</label>
+                        <input type="password" id="password" name="password" minlength="6">
+                    </div>
+                    <div class="button">
+                        <button type="submit">Potwierdź</button>
+                    </div>
+                </div>
+                <div class="col2">
+                    <div class="input">
+                        <label for="last_name">Nazwisko:</label>
+                        <input type="text" id="last_name" name="last_name" minlength="3" maxlength="15">
+                    </div>
+                    <div class="input">
+                        <label for="phone">Numer telefonu:</label>
+                        <input type="tel" id="phone" name="phone" minlength="9" maxlength="9">
+                    </div>
+                    <div class="input">
+                        <label for="c_password">Potwierdź hasło:</label>
+                        <input type="password" id="c_password" name="c_password" minlength="6">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 <script src="script.js"></script>
 </html>
